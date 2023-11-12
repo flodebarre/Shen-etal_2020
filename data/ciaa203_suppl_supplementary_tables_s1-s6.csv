@@ -1,0 +1,57 @@
+﻿Supplementary table 1. Demographic and Clinical information of all samples.;;;;;;;;;;
+ID1;Gender;Age;Disease;Virus (sequencing)2;Types;Clinical lab;Temperature(℃);Days after onset;ICU;Outcome 
+S1;female;49;COVID-19;SARS-CoV-2;nCoV;Negative;NA;8;N;Recovered
+S2;female;52;COVID-19;SARS-CoV-2;nCoV;Negative;NA;8;Y;Recovered
+S3;male;40;COVID-19;SARS-CoV-2;nCoV;Negative;NA;15;Y;Recovered
+S4;male;61;COVID-19;SARS-CoV-2;nCoV;Negative;NA;12;Y;Deceased
+S5;male;40;COVID-19;SARS-CoV-2;nCoV;Negative;NA;8;N;Recovered
+S6;male;56;COVID-19;SARS-CoV-2;nCoV;Negative;NA;10;Y;Recovered
+S7;female;53;COVID-19;SARS-CoV-2;nCoV;Negative;NA;7;N;Recovered
+S8;male;41;COVID-19;SARS-CoV-2;nCoV;Negative;NA;4;N;Recovered
+H1;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H10;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H11;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H12;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H13;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H14;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H15;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H16;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H17;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H18;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H19;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H2;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H20;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H3;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H4;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H5;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H6;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H7;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H8;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+H9;NA;NA;Healthy;NA;Healthy;Negative;NA;NA;NA;NA
+C1;female;76;Community acquired pneumonia;Human mastadenovirus B;Virus-like;Adenovirus,P.Aeruginosa,A.baumannii,other;38;6;NA;NA
+C10;male;23;Community acquired pneumonia;Rhinovirus A;Virus-like;Negative;38,5;10;NA;NA
+C11;female;45;Community acquired pneumonia;Rhinovirus B;Virus-like;Adenovirus;39;2;NA;NA
+C12;male;46;Community acquired pneumonia;Rhinovirus A;Virus-like;Negative;38,5;NA;NA;NA
+C13;female;22;Community acquired pneumonia;Rhinovirus A;Virus-like;Negative;38,2;NA;NA;NA
+C14;female;24;Community acquired pneumonia;Measles morbillivirus;Virus-like;Negative;39,8;NA;NA;NA
+C15;female;58;Community acquired pneumonia;Rhinovirus C;Virus-like;Negative;39,7;10;NA;NA
+C16;NA;NA;Community acquired pneumonia;Influenza A virus;Virus-like;Negative;NA;NA;NA;NA
+C17;NA;NA;Community acquired pneumonia;Influenza A virus;Virus-like;Negative;NA;NA;NA;NA
+C18;NA;NA;Community acquired pneumonia;Influenza A virus;Virus-like;Negative;NA;NA;NA;NA
+C19;male;68;Community acquired pneumonia;Influenza B virus;Virus-like;Negative;38,5;8;NA;NA
+C2;NA;NA;Community acquired pneumonia;Rhinovirus A;Virus-like;Negative;NA;NA;NA;NA
+C20;male;NA;Community acquired pneumonia;Rhinovirus A;Virus-like;Negative;38,5;10;NA;NA
+C21;male;35;Community acquired pneumonia;Enterovirus D;Virus-like;Negative;39;12;NA;NA
+C22;male;35;Community acquired pneumonia;Enterovirus D;Virus-like;Negative;39;14;NA;NA
+C23;male;85;Community acquired pneumonia;Enterovirus D;Virus-like;Negative;37;8;NA;NA
+C24;male;72;Community acquired pneumonia;Human coronavirus HKU1;Virus-like;Negative;37;13;NA;NA
+C25;NA;NA;Community acquired pneumonia;Influenza A virus;Virus-like;Negative;NA;NA;NA;NA
+C3;male;74;Community acquired pneumonia;Rhinovirus B;Virus-like;Rhinovirus;NA;NA;NA;NA
+C4;female;51;Community acquired pneumonia;Rhinovirus B;Virus-like;Rhinovirus;NA;NA;NA;NA
+C5;male;59;Community acquired pneumonia;Rhinovirus A;Virus-like;Rhinovirus,Influenza A virus;NA;NA;NA;NA
+C6;female;NA;Community acquired pneumonia;Human orthopneumovirus;Virus-like;Negative;NA;7;NA;NA
+C7;male;NA;Community acquired pneumonia;Influenza B virus;Virus-like;Negative;NA;11;NA;NA
+C8;female;39;Community acquired pneumonia;Human orthopneumovirus;Virus-like;M.pneumoniae;38,8;10;NA;NA
+C9;male;57;Community acquired pneumonia;Human orthopneumovirus;Virus-like;Negative;36,8;6;NA;NA
+1. S: SARS-CoV-2 patients, C: CAP patients, H: Healthy Controls;;;;;;;;;;
+2. Virus (sequencing): Viruses that identified in the sequencing data;;;;;;;;;;
