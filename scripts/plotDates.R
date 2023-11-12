@@ -59,6 +59,6 @@ legend(x = mean(dates), y = -0.75, yjust = 1, xjust = 0.5,
        col = c(cols["onset"], cols["hosp"], cols["collection"], cols["onset_estim"]), legend = c("Symptoms onset", "Hospitalization", "Sample collection (Shen et al.)", "Estimated onset (Shen et al.)"), pch = c(16, 15, 18, 1), pt.cex = cexx, ncol = 2, lwd = c(1, 1, 1, 3), lty = 0, 
        text.width = c(5, 8), x.intersp = 0)
 
-text(x = dates[1] - 3, y = -2.5, labels = "* Patient assignation, and his therefore onset and hospitalization dates, are not certain.", adj = 0)
+text(x = dates[1] - 3, y = -2.5, labels = "* Patient assignation, and therefore his onset and hospitalization dates, are not certain.", adj = 0)
 dev.off()
 system(paste("open", fname))
