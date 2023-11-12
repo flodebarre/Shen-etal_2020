@@ -1,5 +1,7 @@
 # Shen-etal_2020
 
+TL;DR: The samples sequenced by Shen et al. were collected between 30 Dec 2019 and 01 Jan 2020, and not between 18 Dec and 29 Dec as originally written. 
+
 ## Context  
 
 In September 2021, Jesse Bloom [tweeted](https://x.com/jbloom_lab/status/1432903937212891136?s=20) that the collection dates of samples listed in a paper by [Shen et al. (2020)](https://academic.oup.com/cid/article/71/15/713/5780800) had changed between the version accepted by the journal (*Clinical Infectious Diseases*) and the published version.  
