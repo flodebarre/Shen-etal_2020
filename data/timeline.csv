@@ -1,0 +1,14 @@
+date,event,source
+2020-02-11,PRJNA605907 registered on SRA; metadata submitted,https://www.ncbi.nlm.nih.gov/bioproject/605907
+2020-02-18,Shen et al.’s manuscript received by CID,https://academic.oup.com/cid/article/71/15/713/5780800
+2020-02-22,Runs from PRJNA605907 published on SRA,https://www.ncbi.nlm.nih.gov/sra/SRX7705832[accn]
+2020-02-23,Editorial decision CID,https://academic.oup.com/cid/article/71/15/713/5780800
+2020-02-25,Shen et al.’s article accepted by CID,https://academic.oup.com/cid/article/71/15/713/5780800
+2020-03-09,Shen et al.’s article published online,https://academic.oup.com/cid/article/71/15/713/5780800
+2020-05-05,Shen et al’s article is corrected and typeset version published at CID,https://academic.oup.com/cid/article/71/15/713/5780800
+2021-08-17,Jesse Bloom’s first commit,https://github.com/jbloom/SARS-CoV-2_Shen_et_al/commits/main
+2021-09-01,Jesse Blooms’ first tweets on the Shen et al. correction,https://x.com/jbloom_lab/status/1432903937212891136?s=20
+2021-09-18,Table S1 last updated,https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cid/71/15/10.1093_cid_ciaa203/6/ciaa203_suppl_supplementary_tables_s1-s6.xlsx?Expires=1702851296&Signature=QOB79x~8oxkYCxDC~kmzC3HmLHlWzoK1c-I9FRaO6nYollFklsh0rh9dQRy2wtEkFeJTzt3g~9UIdLZOvAVPL0-6AJsTQsxM4HWHKy8JnBon3DITcdvVlHLjkl-EHT~4Re5ldyRuL~H4-SstCzD1E1IZzg69~V7Di4lLFuxjPmNXHumYktmPfAXaocW7auh82j525fZmRlcZttQuA7CA4C2SOh-aSnX8jPtnviju-AyZoVTbKbHdzhU9JveMNwO8ibX~Bh7qO6i3I84~3EHX9edBVaf3WZ9MXa8OHOD5GWyu9vIsXiijKoITz0a~kTxBDSgmOaHyvcSk1Ew6isMKUw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+2021-11-13,Correction published on CID,https://academic.oup.com/cid/article/73/12/2374/6427503
+2022-03-31,Jesse Bloom’s tweets noting the correction,https://x.com/jbloom_lab/status/1509599601753395210?s=20
+2023-04-23,NYT article mentioning the Shen et al. correction,https://www.nytimes.com/2023/04/23/world/europe/chinese-censorship-covid.html
