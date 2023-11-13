@@ -24,16 +24,16 @@ The correction was noted by Jesse Bloom in a [Twitter thread](https://x.com/jblo
 <a href="url"><img src="img/2022-03-31_Twitter-JBloom_31.png" align="middle" height="75%" width="75%" ></a>  
 *Screenshot of Jesse Bloom's [tweet](https://x.com/jbloom_lab/status/1509599601753395210?s=20) on the correction.*  
 
-In April 2023, a [New York Times article](https://www.nytimes.com/2023/04/23/world/europe/chinese-censorship-covid.html) mentioned the event, presenting the original dates as the correct ones:  
+In April 2023, a [New York Times article](https://www.nytimes.com/2023/04/23/world/europe/chinese-censorship-covid.html) mentioned the event, presenting the original dates as the correct ones (emphasis added):  
 > *Then on March 9, scientists from top Chinese laboratories published a paper about how the coronavirus might be mutating. The research appeared in Clinical Infectious Diseases, a prestigious journal published by Oxford University Press.*   
 >   
-> *The topic was seemingly apolitical, but it relied on samples collected from patients in Wuhan starting in mid-December 2019. That added to evidence that the virus was spreading widely before the Chinese government took action.*
+> *The topic was seemingly apolitical, but **it relied on samples collected from patients in Wuhan starting in mid-December 2019**. That added to evidence that the virus was spreading widely before the Chinese government took action.*
  
 Here I show elements indicating that the final, the corrected collections dates (30 Dec - 01 Jan) are very likely the correct ones, contrary to what was suggested. 
 
 ## 1) Collection dates on SRA match the corrected dates
 
-Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) on 11 Feb 2020, that is, a week before their article was received by *Clinical Infectious Diseases* (18 Feb 2020). The metadata indicate collection dates ranging from 30 Dec 2019 to 01 Jan 2020, matching Shen et al.'s dates in the latest version of their article. The SRA data were made public on 22 Feb 2020. (NB: a timeline recapitulating all these events is available [here](data/timeline.csv).
+Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) on 11 Feb 2020, that is, a week before their article was received by *Clinical Infectious Diseases* (18 Feb 2020). The metadata indicate collection dates ranging from 30 Dec 2019 to 01 Jan 2020, matching Shen et al.'s dates in the latest version of their article. The SRA data were made public on 22 Feb 2020. (NB: a timeline recapitulating all these events is available [here](data/timeline.csv)).
 
 ![SRA screenshot](img/SRA_screenshot_nCov4_annotated.png)  
 *Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. The dates are written in the ISO format (YYYY-MM-DD).*
