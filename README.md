@@ -34,7 +34,14 @@ Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) o
 ![SRA screenshot](img/SRA_screenshot_nCov4.png)  
 Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. 
 
-This should be sufficient evidence confirming that the 30 Dec-01 Jan collection dates are indeed correct. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. We will therefore confirm the dates another way, by matching the samples to actual patients, for whom onset dates are known. 
+This should be sufficient evidence confirming that the 30 Dec-01 Jan collection dates are indeed correct. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. Can we confirm these dates? Yes. 
+
+First, data on SRA are synchronised on other databases, including the European Nucleotide Archive (ENA). Conveniently, this database displays two dates for each record: the date of first publication, and the date of last update (`ENA-LAST-UPDATE`). The last update date for the Shen et al. records on ENA is the same as the date of first publication, 25 Feb 2020, confirming that information was not altered. 
+
+![ENA screenshot](img/ENA_screenshot_nCov4.png)  
+Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the botton the 2020-02-25 last update date. 
+
+Still, on other subtopics, I have been told that even ENA could be complicit and alter data. We will therefore find a different way to checking Shen et al.'s collection dates. We will do so by matching the samples to actual patients, for whom onset dates are known (as [suggested](https://x.com/jbloom_lab/status/1432914677692973058?s=20) by Jesse Bloom in September 2021). 
  
  ## 2) Onset dates estimated from Shen et al.'s metadata match known onset dates
  
