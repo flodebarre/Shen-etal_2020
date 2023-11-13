@@ -27,7 +27,8 @@ cexx <- 2 # Point size
 
 dates <- seq(rg[1], rg[2], by = "day") # Dates for x axis
 
-par(las = 1, mai = c(1.5, 2.25, 0.75, 0.25))
+par(las = 1, mai = c(1.75, 2.25, 0.5, 0.25), 
+    mgp = c(2, 0.5, 0))
 
 # Initialize plot
 plot(m$Onset_date, xx, axes = FALSE, 
@@ -40,7 +41,7 @@ for(dd in dates){
 }
 
 axis(1, at = dates, labels = format(dates, "%b %d"))
-axis(2, lwd = 0, at = xx, labels = paste0("nCov", seq_along(xx), "|", m$Isolate, "|", m$Host_age, m$Host_sex, ifelse(m$Date_certainty == 0, "*", "")), family = "mono")
+axis(2, lwd = 0, at = xx, labels = paste0("nCov", seq_along(xx), "|", m$Isolate, "|", m$Host_age, m$Host_sex, ifelse(m$Date_certainty == 0, "*", " ")), family = "mono")
 
 title(main = "Shen et al. (2020)'s patients")
 
@@ -68,10 +69,10 @@ points(m$Estimated_Onset, xx, pch = 1, cex = cexx, col = cols["onset_estim"], lw
 # Legend and comments
 par(xpd = TRUE)
 legend(x = mean(dates), y = -0.75, yjust = 1, xjust = 0.5, 
-       col = c(cols["onset"], cols["hosp"], cols["collection"], cols["onset_estim"]), legend = c("Symptoms onset", "Hospitalization", "Sample collection (Shen et al.)", "Estimated onset (Shen et al.)"), pch = c(16, 15, 18, 1), pt.cex = cexx, ncol = 2, lwd = c(1, 1, 1, 3), lty = 0, 
-       text.width = c(5, 8), x.intersp = 0)
+       col = c(cols["onset"], cols["hosp"], gray(0, 0), cols["collection"], colDelta, cols["onset_estim"]), legend = c("Symptoms onset", "Hospitalization", "", "Sample collection (Shen et al.)", "Days after onset (Shen et al.)", "Estimated onset"), pch = c(16, 15, NA, 18, NA, 1), pt.cex = cexx, ncol = 2, lwd = c(1, 1, 0, 1, 1, 3), lty = c(0, 0, 0, 0, lDelta, 0), 
+       text.width = c(5, 8), x.intersp = 0.2)
 
-text(x = dates[1] - 3, y = -2.5, labels = "* Patient assignation, and therefore his onset and hospitalization dates, are not certain.", adj = 0)
+text(x = dates[1] - 3, y = -3, labels = "* Patient assignation, and therefore his onset and hospitalization dates, are not certain.", adj = 0)
 
 par(xpd = FALSE)
 dev.off()
