@@ -19,7 +19,10 @@ In November 2021, a [correction](https://academic.oup.com/cid/article/73/12/2374
 
 (NB: Shen et al.'s Table S1 file was [updated](img/TableS1_v2_metadata.png) in September 2021. The [original](img/TableS1_v1.png) version of Table S1 had issues: the patients' outcomes were interverted for all but one patients).  
 
-The correction was noted by Jesse Bloom in a [Twitter thread](https://x.com/jbloom_lab/status/1509599601753395210?s=20), questioning the validity of the corrected dates.  
+The correction was noted by Jesse Bloom in a [Twitter thread](https://x.com/jbloom_lab/status/1509599601753395210?s=20) posted at the end of March 2022, questioning the validity of the corrected dates.  
+
+![Screenshot of Jesse Bloom's tweet](img/2022-03-31_Twitter-JBloom_31.png)  
+*Screenshot of Jesse Bloom's [tweet](https://x.com/jbloom_lab/status/1509599601753395210?s=20) on the correction.*  
 
 In April 2023, a [New York Times article](https://www.nytimes.com/2023/04/23/world/europe/chinese-censorship-covid.html) mentioned the event, presenting the original dates as the correct ones:  
 > *Then on March 9, scientists from top Chinese laboratories published a paper about how the coronavirus might be mutating. The research appeared in Clinical Infectious Diseases, a prestigious journal published by Oxford University Press.*   
@@ -33,14 +36,14 @@ Here I show elements indicating that the final, the corrected collections dates 
 Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) on 11 Feb 2020, that is, a week before their article was received by *Clinical Infectious Diseases* (18 Feb 2020). The metadata indicate collection dates ranging from 30 Dec 2019 to 01 Jan 2020, matching Shen et al.'s dates in the latest version of their article. The SRA data were made public on 22 Feb 2020. (NB: a timeline recapitulating all these events is available [here](data/timeline.csv).
 
 ![SRA screenshot](img/SRA_screenshot_nCov4_annotated.png)  
-Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. 
+*Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. The dates are written in the ISO format (YYYY-MM-DD).*
 
 This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. Can we confirm these dates? Yes. 
 
 First, data on SRA are synchronised on other databases, including the European Nucleotide Archive (ENA). Conveniently, this other database displays two dates for each record: the date of first publication (`ENA_FIRST_PUBLIC`), and the date of last update (`ENA-LAST-UPDATE`). The last update date for the Shen et al. records on ENA is the same as the date of first publication, 25 Feb 2020. This confirms that metadata were not altered. 
 
 ![ENA screenshot](img/ENA_screenshot_nCov4_annotated.png)  
-Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the botton the 2020-02-25 last update date. 
+*Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the botton the 2020-02-25 last update date.* 
 
 Still, on other subtopics, I have been told that even ENA could be complicit and also alter data. We will therefore find a different way to checking Shen et al.'s collection dates. We will do so by matching the samples to actual patients, for whom onset dates are known -- as [suggested](https://x.com/jbloom_lab/status/1432914677692973058?s=20) by Jesse Bloom back in September 2021. 
  
@@ -52,8 +55,8 @@ Still, on other subtopics, I have been told that even ENA could be complicit and
  
  We can then compare the estimated onset dates (open circles) to the onset dates known from other publications (full circles). They match exactly for five patients, and roughly for the three others (1, 2 and 3-day differences, with the largest difference being for the uncertain patient). 
  
- ![onset dates](scripts/plotDates.png)
- Onset dates for the different patients in Shen et al. (2020), from other sources (full circles) and computed from information provided by Shen et al. (2020) (open circles). [Source data](data/sra-S1.csv); [script for plotting](scripts/plotDates.R).
+ ![onset dates](scripts/plotDates.png)  
+ *Onset dates for the different patients in Shen et al. (2020), from other sources (full circles) and computed from information provided by Shen et al. (2020) (open circles). [Source data](data/sra-S1.csv); [script for plotting](scripts/plotDates.R).*
  
  Finally, we can also note that the sample collection dates listed by Shen et al. match sample collection dates for the same patients in other publications. 
  
