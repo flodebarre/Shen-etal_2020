@@ -21,6 +21,8 @@ In November 2021, a [correction](https://academic.oup.com/cid/article/73/12/2374
 
 The correction was noted by Jesse Bloom in a [Twitter thread](https://x.com/jbloom_lab/status/1509599601753395210?s=20) posted at the end of March 2022, questioning the validity of the corrected dates.  
 
+<a href="url"><img src="img/2022-03-31_Twitter-JBloom_31.png" align="center" height="50%" width="50%" ></a>  
+<a href="url"><img src="img/2022-03-31_Twitter-JBloom_31.png" align="center" height="75%" width="75%" ></a>  
 ![Screenshot of Jesse Bloom's tweet](img/2022-03-31_Twitter-JBloom_31.png)  
 *Screenshot of Jesse Bloom's [tweet](https://x.com/jbloom_lab/status/1509599601753395210?s=20) on the correction.*  
 
