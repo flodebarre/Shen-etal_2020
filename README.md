@@ -46,7 +46,8 @@ Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) o
 ![SRA screenshot](img/SRA_screenshot_nCov4_annotated.png)  
 *Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. The dates are written in the ISO format (YYYY-MM-DD).*
 
-This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. Can we confirm these dates? Yes. 
+<!-- This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. Can we confirm these dates? Yes. -->
+This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, it seems that [metadata can be updated](https://www.ncbi.nlm.nih.gov/sra/docs/submitupdate/#how-do-i-update-other-attributes) on SRA, and the submission date does not change. So let's cross-check with another database.  
 
 ### ENA metadata match SRA
 
