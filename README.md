@@ -1,6 +1,7 @@
 # Shen-etal_2020
 
-TL;DR: The samples sequenced by [Shen et al. (2020)](https://academic.oup.com/cid/article/71/15/713/5780800) were collected between 30 Dec 2019 and 01 Jan 2020 as indicated in the corrected version of their article, and not between 18 Dec and 29 Dec 2019 as originally written. There is no evidence of wrongdoing. 
+TL;DR: The samples sequenced by [Shen et al. (2020)](https://academic.oup.com/cid/article/71/15/713/5780800) were collected between 30 Dec 2019 and 01 Jan 2020 as indicated in the corrected version of their article, and not between 18 Dec and 29 Dec 2019 as originally written. The 18-29 Dec date range was the range of hospital admission dates from a related paper that included four of the same patients (hospitalized 22-29 Dec), and an additional one (18 Dec). 
+There is no evidence of wrongdoing. 
 
 ## Context  
 
@@ -81,6 +82,30 @@ Still, on other subtopics, I have been told that even ENA could be complicit and
  
  Finally, we can also note that the sample collection dates listed by Shen et al. match sample collection dates for the same patients in other publications. 
  
+ Still, this does not seem to be enough, and the originally announced 18-29 Dec date range brings confusion. Where does it come from? 
+ 
+ ## The 18-29 December date range was hospitalization dates from a related publication
+ 
+ The original sentence in Shen et al. (2020) read   
+ > *Eight COVID-19 pneumonia samples were collected from hospitals in Wuhan from December 18 to 29, 2019*  
+ 
+ This sentence matches a sentence in another article, [Ren et al. (2020)](https://journals.lww.com/cmj/fulltext/2020/05050/identification_of_a_novel_coronavirus_causing.3.aspx), with senior authors in common with Shen et al. (2020). Ren et al. was submitted on 25 January 2020, originally [published](img/Ren-etal_pubdate.png) on 11 February 2020. Ren et al. presents the group's first SARS-CoV-2 sequences. Their description of the samples is the following:    
+ > *Bronchoalveolar lavage fluid (BAL) samples were collected from five patients hospitalized with pneumonia in Wuhan Jinyintan Hospital, Wuhan, Hubei province, China from December 18 to 29, 2019.* 
+
+Three (maybe four) of the five patients from Ren et al. are later included in Shen et al.: patients 2, 3 and 5. Their onset, hospitalization, and sampling dates perfectly match between the two publications. (Dates do not match for 41M, but we know that there were two 41M early patients; see [Babarlelephant et al. (2022)](http://zenodo.org/records/6672912) for a discussion).  
+
+![table from Ren et al.](img/Ren-etal_Table1.png)  
+*Screenshot of part of Table 1 from Ren et al. (2020). Patient 1 was a vendor at Huanan seafood market; he is not included in Shen et al. (2020). Patients 2, 3, 5 are in Shen et al. (2020). Although age and sex match for patient 4, he may be the other 41M, of [dentist fame](https://www.science.org/doi/abs/10.1126/science.abm4454).*
+
+Hospitalization dates in Table 1 from Ren et al. (2020) range from 18 to 29 Dec, as announced. The earliest date is for Patient 1. Sampling dates of all patients range from 24 Dec to 01 Jan, starting only on 30 Dec if we remove Patient 1. Importantly, the sampling dates of patients 2, 3, 5 are the same as reported in the latest version of Shen et al. These collection dates were also reported on GISAID and on [CNCB](https://ngdc.cncb.ac.cn/biosample/browse/SAMC133242). 
+ 
+The Ren et al. publication independently validates the sampling dates of Shen et al., and provides an explanation for the 18-29 Dec date range.   
+
  ## Conclusion
  
- The samples studied by Shen et al. (2020) were collected between 30 Dec 2019 and 01 Jan 2020. There is no evidence that the initial 18 Dec - 29 Dec date range was correct. This was likely just a confusion with onset dates (though the range we find differs a tiny bit). But there is no evidence that samples were collected before it was even realized that there were cases of a new pneumonia throughout Wuhan. 
+ The samples studied by Shen et al. (2020) were collected between 30 Dec 2019 and 01 Jan 2020. The initial 18-29 Dec date range corresponded to hospitalization dates in a related publication.  There is no evidence that samples were collected before it was even realized that there were cases of a new pneumonia throughout Wuhan. 
+
+## Credits
+
+Zach Hensel found the Ren et al. article.  
+Jesse Bloom's [experiment](experiment/) with his own data helped establish the reliability of information displayed on ENA. 
