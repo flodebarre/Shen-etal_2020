@@ -1,6 +1,6 @@
 # Shen-etal_2020
 
-TL;DR: The samples sequenced by [Shen et al. (2020)](https://academic.oup.com/cid/article/71/15/713/5780800) were collected between 30 Dec 2019 and 01 Jan 2020 as indicated in the corrected version of their article, and not between 18 Dec and 29 Dec 2019 as originally written. The 18-29 Dec date range was the range of hospital admission dates from a related paper that included four of the same patients (hospitalized 22-29 Dec), and an additional one (18 Dec). 
+TL;DR: The samples sequenced by [Shen et al. (2020)](https://academic.oup.com/cid/article/71/15/713/5780800) were collected between 30 Dec 2019 and 01 Jan 2020 as indicated in the corrected version of their article, and not between 18 Dec and 29 Dec 2019 as originally written. The 18-29 Dec date range was the range of hospital admission dates from a related paper with authors in common, that included three of the same patients (hospitalized 27-29 Dec). 
 There is no evidence of wrongdoing. 
 
 ## Context  
