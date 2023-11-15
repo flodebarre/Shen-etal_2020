@@ -80,7 +80,7 @@ Still, on other subtopics, I have been told that even ENA could be complicit and
  ![onset dates](scripts/plotDates.png)  
  *Onset dates for the different patients in Shen et al. (2020), from other sources (full circles) and computed from information provided by Shen et al. (2020) (open circles). [Source data](data/sra-S1.csv); [script for plotting](scripts/plotDates.R).*
  
- Finally, we can also note that the sample collection dates listed by Shen et al. match sample collection dates for the same patients in other publications. 
+ Finally, we can also note that the sample collection dates listed by Shen et al. match sample collection dates for the same patients in other publications like [Zhou](Zhou-etal_TableS1.png) et al. (2020). Beyond the patients, some of the *samples* also appear in [Lu](https://www.sciencedirect.com/science/article/pii/S0140673620302518?via%3Dihub) et al. (2020) (WH19001, WH19002, WH19004), with 30 Dec-01 Jan collection dates. 
  
  Still, this does not seem to be enough, and the originally announced 18-29 Dec date range brings confusion. Where does it come from? 
  
