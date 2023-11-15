@@ -47,11 +47,15 @@ Sequence data were submitted by Shen et al. to the Sequence Read Archive (SRA) o
 *Screenshot of [SRA page](https://www.ncbi.nlm.nih.gov/biosample/14081560), showing at the bottom the 2020-02-11 submission date. The dates are written in the ISO format (YYYY-MM-DD).*
 
 <!-- This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, on the topic of Covid origin, it [has been argued](https://x.com/Ayjchan/status/1320348838205526016?s=20) that data on SRA could have been tampered with. Can we confirm these dates? Yes. -->
-This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, it seems that [metadata can be updated](https://www.ncbi.nlm.nih.gov/sra/docs/submitupdate/#how-do-i-update-other-attributes) on SRA, and the submission date does not change. So let's cross-check with another database.  
+This should be sufficient evidence confirming that the 30 Dec - 01 Jan collection dates are indeed correct, since this is the information that was provided in February 2020. However, it seems that [metadata can be updated](https://www.ncbi.nlm.nih.gov/sra/docs/submitupdate/#how-do-i-update-other-attributes) on SRA, and the submission date does not change. Jesse Bloom did an [experiment](experiment/) with his own data to confirm that metadata can change on SRA, without any change in the displayed date. So let's cross-check with another database.  
 
 ### ENA metadata match SRA
 
-First, data on SRA are synchronised on other databases, including the European Nucleotide Archive (ENA). Conveniently, this other database displays two dates for each record: the date of first publication (`ENA_FIRST_PUBLIC`), and the date of last update (`ENA-LAST-UPDATE`). The last update date for the Shen et al. records on ENA is the same as the date of first publication, 25 Feb 2020. This confirms that metadata were not altered. 
+First, data on SRA are synchronised on other databases, including the European Nucleotide Archive (ENA). Conveniently, this other database displays two dates for each record: the date of first publication (`ENA_FIRST_PUBLIC`), and the date of last update (`ENA-LAST-UPDATE`). 
+
+In Jesse Bloom's [experiment](experiment/), after synchronization with SRA, his record on ENA shows an updated Collection date, but also an updated `ENA-LAST-UPDATE`. We can therefore trust information shown on ENA: records are how they were on the day of `ENA-LAST-UPDATE`. 
+
+The last update date for the Shen et al. records on ENA is the same as the date of first publication, 25 Feb 2020 (which is [3 days](data/timeline.csv) after the data were made public on SRA, and corresponds to the time for the synchronization to take place). This confirms that metadata were not altered since 25 Feb 2020, and we can quite confidently say 22 Feb 2020. We will have to ask SRA if there was any modification between 11 Feb 2020 and 22 Feb 2020, but, importantly for our topic, both dates are [before](data/timeline.csv) the first version of article was published anyway. 
 
 ![ENA screenshot](img/ENA_screenshot_nCov4_annotated.png)  
 *Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the botton the 2020-02-25 last update date.* 
