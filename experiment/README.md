@@ -2,7 +2,7 @@ In order to test whether changes in metadata can be spotted for data submitted t
 
 The original sample had been submitted on 09 April 2021, and the Collection date read "2020". Jesse Bloom updated the metadata on 13 November 2023, into "2020-05". 
 
-On [SRA](https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN18683769), the change is not visible. The only date shown is the original submission date, and there is not sign that the metadata were updated. This means that we cannot use SRA on its own to determine whether data shown today are the same as when they were submitted.  
+On [SRA](https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN18683769), the change is not visible. The only date shown is the original submission date, and there does not seem to be any sign that the metadata were updated. This means that we cannot use SRA on its own to determine whether data shown today are the same as when they were submitted.  
 
 Data on SRA are synchronised with other databases, including ENA. Information is shown differently on ENA. In particular, ENA has a `ENA-LAST-UPDATE` field containing the date at which records were changed. After synchronization with SRA, the ENA page for Jesse Bloom's record indicates that some update happened. We can therefore trust information shown on ENA.  
 
