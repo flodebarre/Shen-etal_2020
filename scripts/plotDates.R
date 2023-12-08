@@ -17,7 +17,7 @@ fname <- "plotDates.png" # File name
 
 png(fname, width = 8, height = 6, units = "in", res = 200)
 
-xx <- rev(seq_len(nrow(m))) # Positions of the patients (actually as y)
+m$plotPosition <- rev(seq_len(nrow(m))) # Positions of the patients (actually as y)
 rg <- range(c(m$Onset_date, m$Estimated_Onset, m$Hospitalization_date, m$Collection_date_Shen)) # Range of dates, to fix x range
 
 # Colors
@@ -31,8 +31,8 @@ par(las = 1, mai = c(1.75, 2.25, 0.5, 0.25),
     mgp = c(2, 0.5, 0))
 
 # Initialize plot
-plot(m$Onset_date, xx, axes = FALSE, 
-     xlim = rg, ylim = c(0.75, max(xx) + 0.25), 
+plot(m$Onset_date, m$plotPosition, axes = FALSE, 
+     xlim = rg, ylim = c(0.75, max(m$plotPosition) + 0.25), 
      xlab = "", ylab = "", type = "n")
 
 # Plot grid for days
@@ -41,30 +41,30 @@ for(dd in dates){
 }
 
 axis(1, at = dates, labels = format(dates, "%b %d"))
-axis(2, lwd = 0, at = xx, labels = paste0("nCov", seq_along(xx), "|", m$Isolate, "|", m$Host_age, m$Host_sex, ifelse(m$Date_certainty == 0, "*", " ")), family = "mono")
+axis(2, lwd = 0, at = m$plotPosition, labels = paste0("nCov", seq_along(m$plotPosition), "|", m$Isolate, "|", m$Host_age, m$Host_sex, ifelse(m$Date_certainty == 0, "*", " ")), family = "mono")
 
 title(main = "Shen et al. (2020)'s patients")
 
 # Segments to identify isolates / patients
-segments(x0 = m$Onset_date, y0 = xx, x1 = m$Collection_date_Shen, y1 = xx, 
+segments(x0 = m$Onset_date, y0 = m$plotPosition, x1 = m$Collection_date_Shen, y1 = m$plotPosition, 
          col = gray(0.85), lwd = 7)
 # Segments to link dates
 dy <- 0.22 # position of this other segment
 colDelta <- gray(0.6) # Color of the link
 lDelta <- 2 # Line type of the link
-segments(x0 = m$Estimated_Onset, x1 = m$Collection_date_Shen, y0 = xx + dy, y1 = xx + dy, 
+segments(x0 = m$Estimated_Onset, x1 = m$Collection_date_Shen, y0 = m$plotPosition + dy, y1 = m$plotPosition + dy, 
          col = colDelta, lty = lDelta)
 for(col in c("Estimated_Onset", "Collection_date_Shen")){
   segments(x0 = m[, col], x1 = m[, col], 
-           y0 = xx, y1 = xx + dy, 
+           y0 = m$plotPosition, y1 = m$plotPosition + dy, 
            col = colDelta, lty = lDelta)
 }
 
 # Add points
-points(m$Onset_date, xx, pch = 16, cex = cexx, col = cols["onset"])
-points(m$Hospitalization_date, xx, pch = 15, col = cols["hosp"], cex = cexx)
-points(m$Collection_date_Shen, xx, pch = 18, col = cols["collection"], cex = cexx)
-points(m$Estimated_Onset, xx, pch = 1, cex = cexx, col = cols["onset_estim"], lwd = 3)
+points(m$Onset_date, m$plotPosition, pch = 16, cex = cexx, col = cols["onset"])
+points(m$Hospitalization_date, m$plotPosition, pch = 15, col = cols["hosp"], cex = cexx)
+points(m$Collection_date_Shen, m$plotPosition, pch = 18, col = cols["collection"], cex = cexx)
+points(m$Estimated_Onset, m$plotPosition, pch = 1, cex = cexx, col = cols["onset_estim"], lwd = 3)
 
 # Legend and comments
 par(xpd = TRUE)
