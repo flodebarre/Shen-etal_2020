@@ -9,7 +9,7 @@ Data on SRA are synchronised with other databases, including ENA. Information is
 | Before synchronization | After synchronization |  
 |---|---|
 |![screenshot before](../img/ENA_JB_before.png) | ![screenshot after](../img/ENA_JB_after.png) | 
-|[link](https://web.archive.org/web/20231114214857/https://www.ebi.ac.uk/ena/browser/view/SAMN18683769) | [link](https://www.ebi.ac.uk/ena/browser/view/SAMN18683769) |
+|[link](https://web.archive.org/web/20231114214857/https://www.ebi.ac.uk/ena/browser/view/SAMN18683769) | [link](https://web.archive.org/web/20231115190450/https://www.ebi.ac.uk/ena/browser/view/SAMN18683769) |
 
 
 Data on SRA are also synchronized with DDBJ. As of 2023-11-22 however, Jesse Bloom's metadata change still does not show up on DDBJ ([link](https://ddbj.nig.ac.jp/resource/biosample/SAMN18683769); [2023-11-22 archive](https://archive.is/w8bie)).
