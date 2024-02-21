@@ -65,7 +65,7 @@ The last update date for the Shen et al. records on ENA is the same as the date 
 
 Even though both dates are [before](data/timeline.csv) the first version of article was published anyway, it can still be argued that the collection dates could have been modified between 11 Feb 2020 (date at which the data were submitted) and 22 Feb 2020 (date at which the data were published on SRA) or 25 Feb 2020 (date at which the data were synchronised on ENA). So I asked SRA.
 
-### SRA confirmed that the collection date metadata were not altered
+### SRA confirmed that the collection date metadata had not been modified
 
 I contacted SRA and asked. They indicated that the collection date metadata of PRJNA605907 (SAMN14081557 to SAMN14081564) had not ever been altered.
 
