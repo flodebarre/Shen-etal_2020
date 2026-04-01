@@ -56,12 +56,14 @@ This should be sufficient evidence confirming that the 30 Dec - 01 Jan collectio
 
 First, data on SRA are synchronised on other databases, including the European Nucleotide Archive (ENA). Conveniently, this other database displays two dates for each record: the date of first publication (`ENA_FIRST_PUBLIC`), and the date of last update (`ENA-LAST-UPDATE`).
 
-In Jesse Bloom's [experiment](experiment/), after synchronization with SRA, his record on ENA shows an updated Collection date, but also an updated `ENA-LAST-UPDATE`. We can therefore trust information shown on ENA: records are how they were on the day of `ENA-LAST-UPDATE`.
+In Jesse Bloom's [experiment](experiment/), after synchronization with SRA, his record on ENA shows an updated Collection date, but also an updated `ENA-LAST-UPDATE`. We can therefore trust information shown on ENA: records are how they were on the day of `ENA-LAST-UPDATE`. 
+
+(Data are also synchronised on a Japanese database, DDBJ. It took a while, but their page now also reflects Bloom's update, and like ENA, includes a modification date. This further [confirms](experiment/) that we can trust these records.)
 
 The last update date for the Shen et al. records on ENA is the same as the date of first publication, 25 Feb 2020 (which is [3 days](data/timeline.csv) after the data were made public on SRA, and corresponds to the time for the synchronization to take place). This confirms that metadata were not altered since 25 Feb 2020, and we can quite confidently say 22 Feb 2020.
 
 ![ENA screenshot](img/ENA_screenshot_nCov4_annotated.png)  
-*Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the botton the 2020-02-25 last update date.*
+*Screenshot of [ENA page](https://www.ebi.ac.uk/ena/browser/view/SAMN14081560), showing at the bottom the 2020-02-25 last update date.*
 
 Even though both dates are [before](data/timeline.csv) the first version of article was published anyway, it can still be argued that the collection dates could have been modified between 11 Feb 2020 (date at which the data were submitted) and 22 Feb 2020 (date at which the data were published on SRA) or 25 Feb 2020 (date at which the data were synchronised on ENA). So I asked SRA.
 
